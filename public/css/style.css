@@ -62,8 +62,8 @@ p {
 	background: url('images/content_bgcolor.gif') #2f2e2e repeat-x 0px 0px;
 	border: #860b09 2px solid;
 
-	width:778px; 
-	voice-family: "\"}\""; 
+	width:778px;
+	voice-family: "\"}\"";
 	voice-family:inherit;
 	width:774px;
 }
@@ -472,11 +472,22 @@ p {
 }
 
 .subforum-icon i{
-    font-size: 45px;
+    font-size: 20px;
 }
 
 .subforum-devider{
-    display: none;   
+    display: none;
+}
+
+.transparent {
+    background-color: transparent;
+    color: gray;
+    border: none;
+    margin-left: 2px;
+}
+
+.transparent:hover {
+    cursor: pointer;
 }
 
 /* Profile */
@@ -516,7 +527,22 @@ p {
     padding: 20px;
 	float:right;
 	width: 60%;
-  	height: 400px;
+  	height: 538px;
 	overflow: auto;
 	border: #860b09 2px solid;
+}
+
+.forum-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #111314;
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
